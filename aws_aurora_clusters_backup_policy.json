@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "rds:CreateDBClusterSnapshot",
+                "rds:DeleteDBClusterSnapshot",
+                "rds:DescribeDBClusters",
+                "rds:DescribeDBClusterSnapshots",
+                "rds:ModifyDBClusterSnapshotAttribute",
+                "rds:DescribeDBClusterSnapshotAttributes",
+                "rds:ListTagsForResource"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}
