@@ -1,0 +1,21 @@
+1. pgp or gpg key generation
+=> keybase pgp gen
+Enter your real name, which will be publicly visible in your new key: ashok
+Enter a public email address for your key: ashok@gmail.com
+Enter another email address (or <enter> when done):
+Push an encrypted copy of your new secret key to the Keybase.io server? [Y/n] y
+When exporting to the GnuPG keychain, encrypt private keys with a passphrase? [Y/n] y
+- INFO PGP User ID: ashok <ashok@gmail.com> [primary]
+- INFO Generating primary key (4096 bits)
+- INFO Generating encryption subkey (4096 bits)
+- INFO Generated new PGP key:
+- INFO   user: jyothi <jyothi@gmail.com>
+- INFO   4096-bit RSA key, ID 21BC709DFD4A7EB0, created 2019-11-17
+- INFO Exported new key to the local GPG keychain
+
+2. update they local keys
+=> keybase pgp update --all
+
+
+3. Select the key to encrypt and decrypt the values
+keybase pgp select --multi
